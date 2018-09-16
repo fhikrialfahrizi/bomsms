@@ -32,5 +32,5 @@ echo "Jeda? 0-9999999999 (ex:0)\nInput : ";
 $jeda = trim(fgets(STDIN));
 $execute = jdidbom($nomor, $jumlah, $jeda);
 print $execute;
-print "DONE ALL SEND\n";
+print "Pesan Berhasil Dikirim\n";
 ?>
